@@ -1,0 +1,24 @@
+.show-task{
+	padding:5px;
+}
+
+.show-task__title-container{
+	text-align:center;
+	font-size:1.5rem;
+	margin-bottom:15px;
+}
+
+.show-task__title{
+	display:inline-block;
+	padding:0 10px;
+	padding-bottom:5px;
+	border-bottom:1px solid #0378CA;
+}
+
+.show-task__dates{
+	display:flex;
+	justify-content: space-between;
+	margin-bottom:15px;
+}
+				
+.show-task__objs{}

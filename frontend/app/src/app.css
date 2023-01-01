@@ -1,0 +1,89 @@
+*{
+	box-sizing: border-box;
+	text-decoration: none;
+	padding:0;
+	margin:0;
+}
+
+:root{
+	--text-color-default: #EAE8E7;
+	--text-color-input: rgba(0,0,0,.75);
+	--text-color-blue-1: #0378CA;
+
+	--btn-blue-1: #0378CA;
+	
+	--bg-input: #F4F4F4;
+	/* layer level */
+	--z-min: 1;
+	--z-2: 2;
+	--z-3: 3;
+	--z-4: 4;
+	--z-max: 4;
+
+
+}
+html{
+	font-family: sans-serif;
+	font-size:14px;
+}
+
+body{
+	background: #202020;
+	color: var(--text-color-default);
+}
+
+input, 
+textarea,
+button{
+	background:none;
+	outline:none;
+	border:none;
+}
+
+
+.input{
+	width:100%;
+	padding:5px 10px;
+	background: var(--bg-input);
+	font-size: 1.1rem;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 5px;
+	color:var(--text-color-input);
+	font-family:sans-serif;
+}
+
+.textarea{
+	min-height:80px;
+}
+
+
+.btn{
+	cursor:pointer;
+	padding:8px 10px;
+}
+
+.btn--inset-shadow{
+	box-shadow: 	2px 2px 100px inset rgb(0 0 0 / 20%), 
+		    	-2px -2px 50px inset rgb(255 255 255 / 10%);
+}
+
+.btn--form{
+	background:var(--btn-blue-1);
+	color: var(--text-color-default);
+	border-radius: 5px;
+}
+
+.btn--close{
+	color:	#FE1616;
+	font-weight:900;
+	font-size:1.18rem;
+}
+
+.btn--icon{
+	font-size:1.5rem;
+	background:var(--btn-blue-1);
+	color: var(--text-color-default);
+	border-radius: 5px;
+	padding-top:8px;
+	padding-bottom:2px;
+}

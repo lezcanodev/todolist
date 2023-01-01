@@ -1,0 +1,12 @@
+.task-objective{
+	display:flex;
+	gap:5px;
+	cursor:pointer;
+	align-items:center;
+}
+
+.task-objective > div:first-child{
+	padding-top:7px;
+	font-size:1.6rem;
+	color: #1758A2;;
+}
