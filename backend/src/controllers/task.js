@@ -13,6 +13,7 @@ const getAllTasks = async (req, res,  next) => {
 			pageQuery } = req.query;
 		const criterias = {};
 		const sort = {};
+		sort['startedAt'] = 'desc';
 		const page = pageQuery ? Number(pageQuery) :  1;
 
 		if(typeof query !== 'undefined'){

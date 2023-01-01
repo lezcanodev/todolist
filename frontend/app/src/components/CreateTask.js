@@ -29,7 +29,7 @@ export default ({closeModal, tasks, setTasks}) => {
 		);
 	
 		if(result?.task){
-			//setTasks((prevTasks) => prevTasks.concat([result.task]));
+			setTasks((prevTasks) => [result.task].concat(prevTasks));
 		}
 
 		closeModal();
